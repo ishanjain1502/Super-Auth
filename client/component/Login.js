@@ -10,7 +10,7 @@ const Login = () => {
     return(
         <>
         {/* Login */}
-            <form className='h-1/4 w-1/3 py-16 bg-gradient-to-r from-green-300 to-blue-400 text-center ' onSubmit={loginUser}>
+            <form className='h-1/4 w-1/3 py-16 bg-gradient-to-r from-green-300 to-blue-400 text-center '>
             <p className='m-4 underline-offset-2 text-center text-xl' >Login</p>
             <label>Email ID: </label>
             <input name='email'></input><br/><br/>
